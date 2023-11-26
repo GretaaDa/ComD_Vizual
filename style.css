@@ -61,6 +61,14 @@ header {
   max-width: 50%;
 }
 
+.trees-planted {
+  display: flex;
+  flex-direction: row;
+  padding: 5rem;
+  gap: 5rem;
+  align-items: center;
+}
+
 .element-intro {
   padding: 25vw;
   background-color: #6a8a3e;
