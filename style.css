@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  background-image: url(./img/coverTransparent.png);
+  padding: 20vw 5rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.cover-page {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.title {
+  color: #334b26;
+  font-size: 100px;
+}
+
+.introduction {
+  background-color: #6a8a3e;
+  padding: 25vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.introduction h2 {
+  font-size: 50px;
+}
+
+.introduction p {
+  font-size: 25px;
+}
+
+.seed {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: 25px;
+  padding: 10vw;
+  align-items: center;
+}
+
+.seed-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5rem;
+  gap: 5rem;
+}
+
+.seed-text a {
+  text-decoration: none;
+  color: #535353;
+}
+
+.seed img {
+  max-width: 50%;
+}
+
+.element-intro {
+  padding: 25vw;
+  background-color: #6a8a3e;
+  font-size: 50px;
+}
+
+.soil {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  padding: 20vw 10vw;
+  align-items: center;
+  gap: 5rem;
+}
+
+.soil h3 {
+  padding-left: 5rem;
+}
+
+.soil img {
+  max-width: 50%;
+  object-position: right;
+}
+
+.sun {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  padding: 20vw 10vw;
+  align-items: center;
+  gap: 5rem;
+}
+
+.sun h3 {
+  padding-left: 5rem;
+}
+
+.sun img {
+  max-width: 50%;
+  object-position: right;
+}
+
+.water {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  padding: 20vw 10vw;
+  align-items: center;
+  gap: 5rem;
+}
+
+.water h3 {
+  padding-left: 5rem;
+}
+
+.water img {
+  max-width: 50%;
+  object-position: right;
+}
+
+.CO2 {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  padding: 20vw 10vw;
+  align-items: center;
+  gap: 5rem;
+}
+
+.CO2 h3 {
+  padding-left: 5rem;
+}
+
+.CO2 img {
+  max-width: 50%;
+  object-position: right;
+}
+
+.O2 {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  padding: 20vw 10vw;
+  align-items: center;
+  gap: 5rem;
+}
+
+.O2 h3 {
+  padding-left: 5rem;
+}
+
+.O2 img {
+  max-width: 50%;
+  object-position: right;
+}
+
+.photosyn-intro {
+  padding: 25vw;
+  background-color: #6a8a3e;
+  font-size: 50px;
+}
+
+.photosyn {
+  background-image: url(./img/all.png);
+  padding: 20vw 5rem;
+  background-position: right;
+  background-size: 30rem;
+  background-repeat: no-repeat;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #334b26;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
