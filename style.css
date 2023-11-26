@@ -163,14 +163,6 @@ header {
   font-size: 50px;
 }
 
-.photosyn {
-  background-image: url(./img/all.png);
-  padding: 20vw 5rem;
-  background-position: right;
-  background-size: 30rem;
-  background-repeat: no-repeat;
-}
-
 footer {
   display: flex;
   flex-direction: column;
