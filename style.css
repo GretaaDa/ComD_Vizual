@@ -63,10 +63,9 @@ header {
 
 .trees-planted {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   padding: 5rem;
   gap: 5rem;
-  align-items: center;
 }
 
 .element-intro {
@@ -190,4 +189,5 @@ footer a {
   flex-direction: column;
   gap: 5rem;
   align-items: center;
+  margin-top: 50px;
 }
